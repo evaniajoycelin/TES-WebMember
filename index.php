@@ -37,6 +37,8 @@
 
   <?php
 
+  //wao banget
+
     include './fungsional/data/fungsional.php';
     include './fungsional/data/konfigurasi.php';
     include './fungsional/data/isiData.php';
