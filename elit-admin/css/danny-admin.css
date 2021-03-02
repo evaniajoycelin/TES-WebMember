@@ -1,0 +1,23 @@
+.kartu
+{
+    text-decoration: none;
+    color:dimgray
+}
+
+.kartu:hover
+{
+    text-decoration: none;
+    color:dimgray;
+    border: 1px solid goldenrod;
+}
+
+
+.container-fluid
+{
+    font-size: 12px;
+}
+
+table
+{
+    font-size: 12px;
+}

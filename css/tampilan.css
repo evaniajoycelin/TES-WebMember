@@ -1,0 +1,131 @@
+body
+{
+    background-color: #302e2e;
+    color: white;
+}
+
+
+
+.header
+{
+    border: 0px solid red;
+    margin-top: 65px;
+    height: 400px;
+    margin-bottom: 65px;
+}
+
+.header img
+{
+    width: 100%;
+    height: 400px;
+}
+
+.bg-hitam
+{
+    background-color: black;
+}
+
+
+section
+{
+    padding: 50px;
+}
+
+.marjin-kiri
+{
+    margin-left: 25px;
+}
+
+.kartu
+{
+    background-color:  #181717;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.kartuList
+{
+    width: 100px;
+    margin: 10px;
+    background-color: dimgray;
+    display: inline-block;
+}
+
+.kartuList img
+{
+    display: block;
+    margin-bottom: 9px;
+}
+
+.bg-emas
+{
+    background-color: gold;
+    border-color: gold;
+    color: black;
+}
+
+.linkPlong
+{
+    color: white;
+    text-decoration: none;
+}
+
+.linkPlong:hover
+{
+    color: gold;
+    transition: 2s;
+}
+
+.linkBening
+{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.linkBening img
+{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.linkBening:hover
+{
+    background-color: dimgray;
+    transition: 2s;
+    text-decoration: none;
+    color: gold;
+    border-radius: 10px;
+}
+
+.bgBening
+{
+    background-color: transparent;
+}
+
+.lebar200
+{
+    width: 320px;
+}
+
+#pesanWarning
+{
+    color: gold;
+   
+}
+
+#pesanWarning .modal-content
+{
+    background-color: black;
+}
+
+.teks-putih
+{
+    color: white;
+}
+
+.lebar100P
+{
+    width: 100%;
+}
