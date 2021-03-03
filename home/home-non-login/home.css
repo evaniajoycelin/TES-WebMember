@@ -1,0 +1,439 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.container{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    margin: 0rem;
+    max-width: 1519px;
+
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* NAVBAR */
+.container-navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right:  5rem;
+    padding-left: 5rem;
+    background-color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logo img{
+    width: 180px;
+    height: 60px;
+}
+
+.nav-list{
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.nav-list .btn-login{
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-list .btn-daftar{
+    width: 9rem;
+    height: 3.5rem;
+    margin-left: 5rem;
+    line-height: 2.5rem;
+
+    font-weight: bold;
+    color: #fff;
+    background: #E73A63;
+    border-radius: 0.4rem;
+}
+
+.nav-list .btn-daftar:hover{
+    background: #B2002B;
+}
+
+/*Banner*/
+.carousel-indicators li{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    width: 2.5rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #C89E35;
+}
+
+/*Content*/
+.card-title{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 0.5rem;
+}
+
+.container-grid{
+    border-radius: 0.4em;
+    padding: 2.5em
+}
+
+.container-grid-free{
+    background: rgba(255, 255, 255, 0.15);
+    
+}
+
+.container-grid-premium{
+    background: linear-gradient(180deg, #FECC5D 0%, #FDE3BD 53.12%, #F0A148 100%);
+    mix-blend-mode: normal;
+    opacity: 0.85;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card{
+    background-color: #2D2D2D;
+    border: unset;
+    height: 300px;
+    border-radius: 0.3rem;
+}
+
+.title-status{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card .btn{
+    width: 100%;
+    margin-top: 3em;
+
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+
+    background: #E73A63;
+    border-radius: 0.3em;
+}
+
+/*Kelas*/
+.col-title{
+    flex: 1 0 15%;
+    max-width: 15%;
+}
+
+.title-class{
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+.title-icon{
+    margin-bottom: 1em;
+}
+
+.title-link{
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 0.7em;
+    color: #FFFFFF;
+}
+
+.title-link:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.row .slick{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 55em;
+    display: inline-block;
+}
+
+/*Event*/
+.card-deck{
+    height: 31.5rem;
+}
+.event .card{
+    padding: 2em;
+    height: 31.5em;
+}
+
+.event-link{
+    margin-left: 49rem;
+    font-size: 1rem;
+}
+.inner-card{
+    background-color:rgba(0, 0, 0, 0.25);
+    border-radius: 0.4em;
+}
+
+.price-tag{
+    position: absolute;
+    top: 10em;
+    left: 9.35em;
+    padding-left: 0.5em;
+
+    background: linear-gradient(180deg, #FECC5D 0%, #FE9E32 100%);
+    border-radius: 5px 0px 0px 5px;
+    color: black;
+}
+
+.price-tag p{
+    margin-bottom: 0px;
+}
+.price-tag span{
+    text-decoration: line-through;
+    opacity: 0.25;
+    margin-left: 5px;
+}
+.card-body{
+    padding-bottom: 1em;
+}
+
+.event .card-body p{
+    margin-bottom: 0px;
+}
+
+.event .card-title{
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+.card-body .hari{
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.card-body .online{
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 2.5em;
+}
+
+.speaker{
+    display: inline-flex;
+}
+
+.speaker-name{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.speaker-name .name{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.95em;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+.speaker-name .status{
+    display: inline-flex;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+.speaker img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.event .btn{
+    margin-top: 1em;
+}
+
+.event .card-title{
+    margin-bottom: 0px;
+}
+
+/*Bottom Banner*/
+.container-bottom{
+    background: linear-gradient(180deg, #C89E35 0%, #FE9E32 100%), #C89E35;
+    text-align: center;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.container-bottom .btn{
+    width: 30%;
+    margin-top: 2rem;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+
+    background: #E73A63;
+    border-radius: 5px;
+}
+
+/*Footer*/
+.container-footer{
+    text-align: center;
+}
+.navfooter li{
+    display: inline;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+
+.navfooter ul{
+    padding: 0px;
+}
+
+.copy{
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+/*Modal Login*/
+.modal{
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.col-gambar{
+    padding-left: 2em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    flex: 1 0 30%;
+    max-width: 30%;
+    background-image: url('/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/Banner.png');
+}
+
+.col-login{
+    flex: 1 0 70%;
+    max-width: 70%;
+    padding-left: 0;
+}
+
+.container-form{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 5em;
+    padding-left: 5em;
+    background: #FFFFFF;
+}
+
+.container-form h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+    color: black;
+}
+
+.container-form span{
+    margin-left: 0.5em;
+    color: #F1B213;
+}
+
+.container-form p{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1em;
+    color: black;
+    margin-bottom: 2em;
+}
+
+.container-form label{
+    display: block;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1em;
+    color:black;
+}
+
+.container-form .text-input{
+    display: block;
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1.5em;
+    border: unset;
+    background: #EFEFEF;
+    border-radius: 0.4em;
+    padding-left: 0.4em;
+}
+
+.container-form .remember{
+    display: inline;
+    margin-right: 15em;
+}
+
+.container-form .btn{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    background: linear-gradient(180deg, #FECC5D 0%, #FE9E32 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+    color: #fff;
+}
+
+/*Modal Daftar*/
+.alamat-text{
+    margin-bottom: 1.2em;
+}
+
+.container-form select{
+    display: block;
+    width: 100%;
+    height: 3em;
+    border: none;
+    border-radius: 0.4em;
+    background: #EFEFEF;
+
+
+    margin-bottom: 1.2em;
+}
+
+.container-form .tc{
+    display: inline;
+}
+
+.tc span{
+    color: red;
+    margin-left: 0.5em;
+}
+
+.modal-daftar .container-form{
+    height: 30rem;
+    overflow-y: auto;
+}
+
+
