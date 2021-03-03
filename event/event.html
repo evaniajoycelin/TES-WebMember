@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+
+    <!-- Bootstrap V4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="event.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navigation-bar navbar-login">
+        <div class="container container-navbar">
+            <nav class="navbar">
+                <a class="logo"href="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Notification.png">
+                    <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/logoElites.png" alt="logo">
+                </a>
+                <div class = "nav-list">
+                    <a class="btn active" href="#">Event</a>
+                    <a class="btn" href="#">Course</a>
+                    <a class="btn" href="#">Forum</a>
+                    <a class="btn" href="#">Community</a>
+                    <a class="btn bell"href=""><img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Notification.png" alt=""></a>
+                    <div class="notif">1</div>
+                    <a class="btn profile-pict" href="#"><img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/ref_pic 1.png" alt=""></a>
+                    <a class="btn logout"href="">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="container">
+             <!--Carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!--Carousel Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <!--Carousel Banner-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/Rectangle 1.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/Rectangle 1.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/Rectangle 1.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/Rectangle 1.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="status-member">
+        <div class="container">
+            <h1 class="status-title">Self Employed <span><img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Rectangle 45.png" alt=""></span></h1>
+            <div class="filter">
+                <p>Filter:</p>
+                <button class="btn dropbtn">Kategori Kelas &#8744;</button>
+                <div class="dropdown-content">
+                    <input class="large-check" type="checkbox" name="free" id="free">
+                    <label for="free">Free<span><img class="status-logo" src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Rectangle 42.png" alt=""></span></label><br>
+
+                    <input class="large-check" type="checkbox" name="self-employ" id="self-employ">
+                    <label for="self-employ">Self Employed<span><img class="status-logo" src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Rectangle 44.png" alt=""></span></label><br>
+
+                    <input class="large-check" type="checkbox" name="entr" id="entr">
+                    <label for="entr">Entrepreneur<span><img class="status-logo" src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Rectangle 43.png" alt=""></span></label>
+                    <hr>
+                    <a class="btn clear-btn" href="#"><img class="trash" src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Trash.png" alt="">Clear</a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section id="upcoming-event">
+        <div class="container">
+            <h1 class="status-title">Event Mendatang</h1>
+            <div class="card-deck event">
+                <div class="card">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="#">See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="">See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="">See Details</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="all-events">
+        <div class="container">
+            <h1 class="status-title">Semua Events</h1>
+
+            <div class="row row-cols-3">
+
+                <div class="col">
+                  <div class="card card-all-event">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="">See Details</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-all-event">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="">See Details</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-all-event">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="">See Details</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-all-event">
+                    <div class="inner-card">
+                        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                        <div class="price-tag">
+                            <p>IDR 75.000<span>IDR 125.000</span></p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text hari">Hari tanggal dan lain lain</p>
+                          <p class="card-text online">Online Event</p>
+                          <div class="speaker">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                            <div class="speaker-name">
+                                <p class="name">Klemens Rahardja</p>
+                                <p class="status">Founder of TE Society</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn">Mulai Kelas</a>
+                          <a class="details" href="">See Details</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-all-event">
+                        <div class="inner-card">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                            <div class="price-tag">
+                                <p>IDR 75.000<span>IDR 125.000</span></p>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text hari">Hari tanggal dan lain lain</p>
+                              <p class="card-text online">Online Event</p>
+                              <div class="speaker">
+                                <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                                <div class="speaker-name">
+                                    <p class="name">Klemens Rahardja</p>
+                                    <p class="status">Founder of TE Society</p>
+                                </div>
+                              </div>
+                              <a href="#" class="btn">Mulai Kelas</a>
+                              <a class="details" href="">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-all-event">
+                        <div class="inner-card">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 34.png" class="card-img-top" alt="...">
+                            <div class="price-tag">
+                                <p>IDR 75.000<span>IDR 125.000</span></p>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text hari">Hari tanggal dan lain lain</p>
+                              <p class="card-text online">Online Event</p>
+                              <div class="speaker">
+                                <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/image 35.png" alt="">
+                                <div class="speaker-name">
+                                    <p class="name">Klemens Rahardja</p>
+                                    <p class="status">Founder of TE Society</p>
+                                </div>
+                              </div>
+                              <a href="#" class="btn">Mulai Kelas</a>
+                              <a class="details" href="">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+
+        </div>
+    </section>
+
+    <section id="page-num">
+        <div class="container page">
+        
+            <div class="pagination">
+                <a href="#">&lt;&lt;</a>
+                <a href="#">&lt;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">&gt;</a>
+                <a href="#">&gt;&gt;</a>
+              </div>  
+           
+        </div>    
+    </section>
+
+    <section id="bottom-banner">
+        <div class="container container-bottom">
+            <h1 class="banner-title">READY TO LEVEL UP YOUR BUSINESS</h1>
+            <a href="#" class="btn">UPGRADE</a>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container container-footer">
+                <div class="navfooter">
+                    <ul>
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>Privacy</li>
+                    </ul>
+                    <p class="copy">Copyright &copy; The Entrepreneurs Society 2020</p>
+                </div>
+        </div>
+    </section>
+
+    <div class="under-maintenance">
+        <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/Under Maintenance.jpeg" alt="">
+        <h1>Responsive Design Under Maintenance</h1>
+    </div>
+
+    <!--JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(".clear-btn").on('click', function(){
+            $( "#free" ).prop( "checked", false );
+            $( "#self-employ" ).prop( "checked", false );
+            $( "#entr" ).prop( "checked", false );
+        });
+    </script>
+</body>
+</html>
