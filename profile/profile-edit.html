@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <!-- Bootstrap V4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="profile.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="navigation-bar navbar-login">
+        <div class="container container-navbar">
+            <nav class="navbar">
+                <a class="logo"
+                    href="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Notification.png">
+                    <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/home/home_assets/logoElites.png"
+                        alt="logo">
+                </a>
+                <div class="nav-list">
+                    <a class="btn active" href="#">Event</a>
+                    <a class="btn" href="#">Course</a>
+                    <a class="btn" href="#">Forum</a>
+                    <a class="btn" href="#">Community</a>
+                    <a class="btn bell" href=""><img
+                            src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/Notification.png"
+                            alt=""></a>
+                    <div class="notif">1</div>
+                    <a class="btn profile-pict" href="#"><img
+                            src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/event/event-assets/ref_pic 1.png"
+                            alt=""></a>
+                    <a class="btn logout" href="">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="main-content">
+        <div class="container">
+            <!-- INI UNTUK SIDEBAR -->
+            <div class="sidebar">
+                <a class="active" href="#home">Profile</a>
+                <a href="#news">Membership</a>
+                <a href="#contact">Transaksi</a>
+            </div>
+
+            <!-- INI CONTAINER UNTUK SIDEBAR DAN ISI KONTEN ITU SENDIRI-->
+            <div class="content-profile">
+                <!-- INI UNTUK TAB -->
+                <div class="navigation-bar-profile">
+                    <a id="profile" class="active" href="">Akun Profile Anda</a>
+                    <a id="bisnis" href="">Akun Bisnis Anda</a>
+                </div>
+
+                <!--INI UNTUK AKUN PROFILE-->
+                <div class="akun-profile container-row">
+                    <div class="content-row-1">
+                        <div class="profile-picture">
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/profile/profile-assets/ref_pic 2.png"
+                                alt="">
+                            <p class="clear-foto">Hapus Foto</p>
+                            <h4>Jennifer Joey</h4>
+                            <h4>ID 123456</h4>
+                        </div>
+
+                        <div class="status-membership">
+                            <h6>Status Membership</h6>
+                            <h3>SELF EMPLOYED</h3>
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/profile/profile-assets/Member_Status.png"
+                                alt="">
+                            <a class="btn" href="">UPGRADE KELAS</a>
+                        </div>
+                    </div>
+
+                    <div class="content-row-2">
+                        <h2>Atur Profile</h2>
+                        <label for="nama">Nama Lengkap</label>
+                        <input name = "nama" id="nama" class="input-data-profile" type="text">
+
+                        <label for="alamat">Alamat Lengkap</label>
+                        <textarea name="alamat" id="alamat" class="input-data-profile"></textarea>
+
+                        <label for="tgl-lahir">Tanggal Lahir</label>
+                        <input name = "tgl-lahir" id="tgl-lahir" class="input-data-profile" type="date">
+
+                        <label for="gender">Jenis Kelamin</label>
+                        <select name="gender" id="gender" class="input-data-profile">
+                            <option>Pilih</option>
+                            <option value="Laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+
+                        <label for="no-hp">Nomor Handphone</label>
+                        <input name = "no-hp" id="no-hp" class="input-data-profile" type="text">
+
+                        <label for="email">Alamat Email</label>
+                        <input name = "email" id="email" class="input-data-profile" type="email">
+
+                        <a class="btn" href="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/profile/profile.html">Simpan Profile</a>
+                    </div>
+                </div>
+
+                <!-- INI UNTUK AKUN BISNIS -->
+                <div class="akun-bisnis container-row">
+                    <div class="content-row-1">
+                        <div class="profile-picture">
+
+                            <img src="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/profile/profile-assets/ref_pic 1.png"
+                                alt="">
+                            <p class="clear-foto">Hapus Foto</p>
+                            <h4>PT. Maju Mundur Cantik</h4>
+
+                            <label for="">Deskripsi Singkat Bisnis Anda</label>
+                            <textarea name="" id=""></textarea>
+
+                            <label for="qty-karyawan">Jumlah Karyawan</label>
+                            <select name="qty-karyawan" id="qty-karyawan" class="input-data-profile">
+                                <option>Pilih</option>
+                                <option value="Laki">Laki-laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select>
+
+                            <label for="omset">Omset per Bulan</label>
+                            <select name="omset" id="omset" class="input-data-profile">
+                                <option>Pilih</option>
+                                <option value="Laki">Laki-laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="content-row-2">
+                        <h2>Atur Bisnis Anda</h2>
+                        <label for= "nama-bisnis">Nama Bisnis Anda</label>
+                        <input name= "nama-bisnis" id="nama-bisnis" class="input-data-profile" type="text">
+
+                        <label for= "tahun-bisnis">Tahun berapa bisnis anda didirikan?</label>
+                        <input name= "tahun-bisnis" id="tahun-bisnis" class="input-data-profile">
+
+                        <label for= "bidang-bisnis">Bergerak di bidang apa bisnis anda?</label>
+                        <input name= "bidang-bisnis" id="bidang-bisnis" class="input-data-profile" type="text">
+
+                        <label for="industri">Industri</label>
+                        <select name="industri" id="industri" class="input-data-profile">
+                            <option>Pilih</option>
+                            <option value="1">Bla</option>
+                            <option value="2">Bla</option>
+                        </select>
+
+                        <label for="alamat-bisnis">Alamat Bisnis</label>
+                        <textarea name="alamat-bisnis" id="alamat-bisnis" class="input-data-profile" type="text"></textarea>
+
+                        <label for="email-bisnis">Email Bisnis</label>
+                        <input name = "email-bisnis" id="email-bisnis" class="input-data-profile" type="email">
+
+                        <label for="no-tlp-bisnis">No. Telp Bisnis</label>
+                        <input name = "no-tlp-bisnis" id="no-tlp-bisnis" class="input-data-profile" type="text">
+
+                        <label for="ig">Akun Instagram Bisnis</label>
+                        <input name = "ig" id="ig" class="input-data-profile" type="text">
+
+                        <label for="fb-page">Page Facebook Bisnis</label>
+                        <input name = "fb-page" id="fb-page" class="input-data-profile" type="text">
+
+                        <label for="website-bisnis">Website</label>
+                        <input name="website-bisnis" id="website-bisnis" class="input-data-profile" type="text">
+
+                        <a class="btn" href="/Users/evaniajoycelin/Documents/Personal Project/Web TES/webtes - front/profile/profile.html">Simpan Profile</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="profile.js"></script>
+</html>
